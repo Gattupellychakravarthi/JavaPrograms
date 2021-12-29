@@ -1,0 +1,25 @@
+package qsp;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("chakri\n");
+		System.out.println("Gattupelly");
+		int x = (int) 12.3;
+		boolean z = true;
+		char ch = '@';
+		String name = "chakravarthi";
+		System.out.println("my lucky number is " + x + z + ch + name);
+
+		String x = "chakri";
+		String y = "chaithu";
+		String temp;
+		temp = x;
+		x = y;
+		y = temp;
+		System.out.println("x: " + x);
+		System.out.println("y: " + y);
+
+	}
+
+}
